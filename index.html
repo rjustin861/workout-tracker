@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Foodpanda</title>
+        <link rel="stylesheet" href="lib/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">        
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col border-right">
+                        <img src="https://pngimage.net/wp-content/uploads/2018/06/foodpanda-logo-png-8.png" height="100" alt="Logo">
+                    </div>
+                    <div class="col-1 text-center">
+                        <i class="fas fa-user"></i>
+                        <a href="Login">LOGIN</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="main" class="main-background">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-8 inner-addon left-addon no-padding">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" id="search-text-box" name="search" class="form-control searchbox" placeholder="Search muscle group or injury, e.g. Chest, Back">
+                    </div>
+                    <div class="col-1 no-padding">
+                        <button type="button" id="btn-search" class="btn btn-search">SEARCH</button>
+                    </div>
+                    <div class="no-padding">
+                        <button type="button" id="btn-generate" class="btn btn-secondary">Generate Training Plan</button>    
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center top-margin">
+                    <div class="col-12 text-center">
+                        <div class="loader hidden">
+                            <img src="images/loader.gif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table id="container-data" class="table table-striped"></table>
+        </main>
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-2 offset-1">
+                        <h1 class="footer-title">About us</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nemo doloremque quo fuga sequi neque iure eum? Voluptatem illum, soluta nulla, vitae perferendis laborum aspernatur, delectus vel nostrum optio ullam.</p>
+                    </div>
+                    <div class="col-6 text-center">
+                        <h1 class="footer-title">Follow us</h1>
+                        <img src="https://curling.pictou.org/wp-content/uploads/2018/10/socialmedia.png" alt="social_media" width="100">
+                    </div>
+                    <div class="col-2 offset-1">
+                        <h1 class="footer-title">© 2019 foodpanda</h1>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src='js/script.js'></script>
+    </body>
+</html>
